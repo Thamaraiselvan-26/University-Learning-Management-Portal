@@ -1,1 +1,12 @@
-apiVersion:
+apiVersion: v1
+kind: Service
+metadata:
+  name: html-demo-service
+spec:
+  type: NodePort
+  selector:
+    app: html-demo
+  ports:
+  - port: 80
+    targetPort: 80
+    nodePort: 30010
