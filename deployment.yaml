@@ -14,7 +14,7 @@ spec:
  spec:
  containers:
  - name: html-demo
- image: thamaraiselvan-26/html-demo:latest
+ image: thamaraiselvan26/html-demo:latest
  ports:
  - containerPort: 80
 ---
